@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npm run build:tailwind",
+  "outputDirectory": ".",
+  "framework": "static",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+} 
